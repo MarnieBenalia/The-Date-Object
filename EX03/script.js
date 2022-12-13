@@ -1,6 +1,6 @@
 const HOURS = 'hours'
 
-function addInterval (date,n,unit){
+/*function addInterval (date,n,unit){
     const newDate = new Date (date.getTime())
     switch (unit){
         case HOURS:
@@ -14,4 +14,8 @@ const TODAY = new Date()
 const FUTUR = addInterval(TODAY,80000, HOURS)
 
 console.log(TODAY)
-console.log(FUTUR)
+console.log(FUTUR)*/
+
+//----------------------------------------------------------------------
+
+let number = parseInt(prompt("Enter a Value"));
